@@ -18,7 +18,7 @@ export default function CharacterCard ({ name, image, episode, location, origin,
     <Card.Content extra>
       <a>
         <Icon name='user' />
-       Episodes 
+       Episodes {episode.length}
       </a>
     </Card.Content>
   </Card>

@@ -10,7 +10,7 @@ export default function EpisodeCard ({ name, air_date, episode, characters }) {
         <span className='date'>{air_date}</span>
       </Card.Meta>
       <Card.Description>
-        Characters: {characters}
+        Characters: {characters.length}
       </Card.Description>
     </Card.Content>
   </Card>
